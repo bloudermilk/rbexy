@@ -29,6 +29,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "actionview", ">= 6.0", "< 7.0"
 
   spec.add_development_dependency "rails", ">= 6.0", "< 7.0"
+  spec.add_development_dependency "puma", "~> 5.3", ">= 5.3.1"
   spec.add_development_dependency "rspec", "~> 3.9"
   spec.add_development_dependency "guard-rspec", "~> 4.7", ">= 4.7.3"
   spec.add_development_dependency "rspec-rails", "~> 4.0", ">= 4.0.1"
