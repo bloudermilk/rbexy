@@ -51,3 +51,5 @@ module Rbexy
     end
   end
 end
+
+require "rbexy/rails/engine" if defined?(Rails::Engine)
